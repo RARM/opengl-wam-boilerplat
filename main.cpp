@@ -1,4 +1,3 @@
-#include <GLES2/gl2.h>
 #include <emscripten.h>
 #include <emscripten/html5.h>
 #include <iostream>
@@ -13,7 +12,7 @@ int main(int argc, char** argv)
     attrs.premultipliedAlpha = false;
     attrs.preserveDrawingBuffer = false;
     attrs.failIfMajorPerformanceCaveat = false;
-    attrs.majorVersion = 1;
+    attrs.majorVersion = 2;
     attrs.minorVersion = 0;
     attrs.enableExtensionsByDefault = false;
 
